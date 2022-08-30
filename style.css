@@ -14,3 +14,41 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 2px #474747;
   }
+  main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .crypto {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+  }
+  #time {
+    align-self: center;
+    font-size: 10rem;
+  }
+  .cryptotop {
+    display: flex;
+    align-items: center;
+  }
+  #cryptoname {
+    margin-left: 10px;
+    font-size: 1.6rem;
+  }
+  
+  .status1 {
+    display: flex;
+    align-items: center;
+  }
+  .status {
+    font-size: 1.6rem;
+  }
+  #icon {
+    margin-right: 60px;
+  }
+  #authorname {
+    margin-left: 60px;
+  }
+  
